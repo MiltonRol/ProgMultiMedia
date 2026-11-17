@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Versión Vector Drawable de svg/cross.svg.
+     ¿Por qué no el .svg directamente? Android NO carga SVG en res/drawable;
+     su formato vectorial es este XML. Android Studio lo genera desde un SVG con
+     File > New > Vector Asset > Local file. Aquí está escrito a mano 1:1:
+     viewBox -> viewportWidth/Height, d -> pathData, stroke-* -> stroke*. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path
+        android:pathData="M20,20 L80,80 M80,20 L20,80"
+        android:strokeColor="#FF4FC3F7"
+        android:strokeWidth="14"
+        android:strokeLineCap="round" />
+</vector>

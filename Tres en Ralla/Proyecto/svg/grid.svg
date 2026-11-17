@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Rejilla 3x3 del fondo. Se dibuja en BLANCO OPACO a propósito:
+     el color y la translucidez se aplican desde Compose con ColorFilter.tint(),
+     así el mismo dibujo sirve para gris (jugando), verde (ganas) y rojo (pierdes).
+     viewBox 300x300 -> cada casilla mide 100x100; las líneas van en 100 y 200.
+     Equivalente Android: app/src/main/res/drawable/ic_grid.xml -->
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <path d="M100,10 L100,290 M200,10 L200,290 M10,100 L290,100 M10,200 L290,200"
+        fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+</svg>

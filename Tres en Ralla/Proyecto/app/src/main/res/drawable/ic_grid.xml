@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Versión Vector Drawable de svg/grid.svg.
+     Blanco opaco: el color final (gris/verde/rojo translúcido) lo pone
+     GameScreen.kt con ColorFilter.tint(). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="300dp"
+    android:viewportWidth="300"
+    android:viewportHeight="300">
+    <path
+        android:pathData="M100,10 L100,290 M200,10 L200,290 M10,100 L290,100 M10,200 L290,200"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round" />
+</vector>
