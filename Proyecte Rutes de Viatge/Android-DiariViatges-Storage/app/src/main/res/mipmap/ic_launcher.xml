@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fallback vector per a API < 26 (no calen PNGs). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="#6650A4"
+        android:pathData="M24,4C16.8,4 11,9.8 11,17c0,9.6 13,23 13,23s13,-13.4 13,-23c0,-7.2 -5.8,-13 -13,-13zM24,22.5c-2.5,0 -4.5,-2 -4.5,-4.5s2,-4.5 4.5,-4.5 4.5,2 4.5,4.5 -2,4.5 -4.5,4.5z" />
+</vector>
